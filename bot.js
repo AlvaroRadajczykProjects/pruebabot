@@ -21,5 +21,21 @@ client.on("message", message => {
 
 });
 
+client.on("message", message => {
+
+  if(message.content == "polla"){
+ 
+      message.channel.send('Que ricooo!!!', {
+            files: [
+                "http://static1.squarespace.com/static/57b5da73b3db2b7747f9c3a4/t/58916aaaebbd1ade326d74f2/1529024584681/"
+            ]
+        });
+  
+  }
+
+});
+
+
+
 client.login(process.env.BOT_TOKEN);
 
