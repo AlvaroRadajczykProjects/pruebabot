@@ -62,6 +62,16 @@ client.on("message", message => {
         });
   
   }
+  
+  if(message.content == "!tocar"){
+ 
+      message.channel.send('con <3 mister puterfull para tí', {
+            files: [
+                "https://cdn.discordapp.com/attachments/458356424964309003/459385700132061184/unknown.png"
+            ]
+        });
+  
+  }
 
 });
 
