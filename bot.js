@@ -25,9 +25,9 @@ client.on("message", message => {
 
   if(message.content == "!cookie"){
  
-      message.channel.send('Que ricooo!!!', {
+      message.channel.send('Dámelo papi!!', {
             files: [
-                "http://static1.squarespace.com/static/57b5da73b3db2b7747f9c3a4/t/58916aaaebbd1ade326d74f2/1529024584681/"
+                "https://1.bp.blogspot.com/-vade0uTKy4g/Wyue4q0ZwgI/AAAAAAAACGw/gNcNEriak_UoSomlb_Qp4GlgfmYaJ963wCLcBGAs/s1600/cookie.png"
             ]
         });
   
