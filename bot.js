@@ -55,7 +55,7 @@ client.on("message", message => {
   
   if(message.content == "!puterfull"){
  
-      message.channel.send('Cómo te gusta la polla, eh!!!!????', {
+      message.channel.send('Tonto!', {
             files: [
                 "https://i.pinimg.com/originals/a6/c8/f2/a6c8f2204ec0ea84126091914fc98db6.jpg"
             ]
