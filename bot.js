@@ -47,7 +47,7 @@ client.on("message", message => {
  
       message.channel.send('Cómo te gusta la polla, eh!!!!????', {
             files: [
-                "https://cdn.discordapp.com/attachments/458356424964309003/459340650731798548/unknown.png"
+                "http://hablemosdeaves.com/wp-content/uploads/2017/04/gallinas-leghorn.jpg"
             ]
         });
   
