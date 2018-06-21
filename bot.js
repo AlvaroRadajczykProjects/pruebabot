@@ -9,7 +9,7 @@ client.on("ready", () => {
 
 client.on("message", message => {
 
-  if(message.content == "polla"){
+  if(message.content == "!polla"){
  
       message.channel.send('Que ricooo!!!', {
             files: [
@@ -23,7 +23,7 @@ client.on("message", message => {
 
 client.on("message", message => {
 
-  if(message.content == "polla"){
+  if(message.content == "!cookie"){
  
       message.channel.send('Que ricooo!!!', {
             files: [
