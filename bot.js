@@ -32,6 +32,16 @@ client.on("message", message => {
         });
   
   }
+  
+  if(message.content == "!cruelsun"){
+ 
+      message.channel.send('Te voy a quemar el CULOOOOO!!!!', {
+            files: [
+                "https://cdn.discordapp.com/attachments/458356424964309003/459340650731798548/unknown.png"
+            ]
+        });
+  
+  }
 
 });
 
