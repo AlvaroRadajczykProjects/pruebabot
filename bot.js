@@ -13,7 +13,7 @@ client.on("message", message => {
  
       message.channel.send('Que ricooo!!!', {
             files: [
-                "https://2.bp.blogspot.com/-RHGNMuJ7SX8/WytimjR8YzI/AAAAAAAACGk/fMJCAOKcsIkUP5SrkPs9Pz9jFMsP6aWrwCLcBGAs/s320/este.jpg"
+                "https://i.ytimg.com/vi/L0rkCahBG1A/maxresdefault.jpg"
             ]
         });
   
