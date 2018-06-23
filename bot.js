@@ -72,6 +72,16 @@ client.on("message", message => {
         });
   
   }
+  
+   if(message.content == "!hack"){
+ 
+      message.channel.send('Modo hacks activado :V', {
+            files: [
+                "https://cdn.discordapp.com/attachments/458356424964309003/459970510839742476/unknown.png"
+            ]
+        });
+  
+  }
 
 });
 
