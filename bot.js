@@ -73,11 +73,21 @@ client.on("message", message => {
   
   }
   
-   if(message.content == "!hack"){
+  if(message.content == "!hack"){
  
       message.channel.send('Modo hacks activado :V', {
             files: [
                 "https://cdn.discordapp.com/attachments/458356424964309003/459970510839742476/unknown.png"
+            ]
+        });
+  
+  }
+  
+  if(message.content == "!tonto"){
+ 
+      message.channel.send('Más tonto y no naces', {
+            files: [
+                "https://78.media.tumblr.com/bf301c060766fb6fb56d55bd8d1d40de/tumblr_o2c603Wrm91v1ncd6o1_500.gif"
             ]
         });
   
