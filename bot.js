@@ -92,6 +92,36 @@ client.on("message", message => {
         });
   
   }
+  
+  if(message.content == "!regalo"){
+ 
+      message.channel.send('Para ti guapo, te lo regalo', {
+            files: [
+                "http://78.media.tumblr.com/2760e22f084d5f1a32dc0e9cc0c4aa0a/tumblr_nckncbfqVD1r2yf1qo1_500.gif"
+            ]
+        });
+  
+  }
+  
+  if(message.content == "!buenosdias"){
+ 
+      message.channel.send('Cuanto tiempo, leeeeel!!', {
+            files: [
+                "https://media.giphy.com/media/b5tk2in7FRuw/giphy.gif"
+            ]
+        });
+  
+  }
+  
+  if(message.content == "!perfecto"){
+ 
+      message.channel.send('Soy el puto amo!! Ah, has visto el aro, achanta!', {
+            files: [
+                "https://i.pinimg.com/originals/37/d7/92/37d792264b17676cf2db280db81cd69d.gif"
+            ]
+        });
+  
+  }
 
 });
 
