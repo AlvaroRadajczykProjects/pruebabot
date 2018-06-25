@@ -95,7 +95,7 @@ client.on("message", message => {
   
   if(message.content == "!regalo"){
  
-      message.channel.send('Para ti guapo, te lo regalo', {
+      message.channel.send('Es un regalo de mi pa ti', {
             files: [
                 "http://78.media.tumblr.com/2760e22f084d5f1a32dc0e9cc0c4aa0a/tumblr_nckncbfqVD1r2yf1qo1_500.gif"
             ]
