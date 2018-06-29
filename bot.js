@@ -122,6 +122,16 @@ client.on("message", message => {
         });
   
   }
+  
+  if(message.content == "!cute"){
+ 
+      message.channel.send('C-U-T-E', {
+            files: [
+                "https://2.bp.blogspot.com/-84Tq9yDSK00/WzYPCNVx3oI/AAAAAAAACHY/GCnSErAnvfk8gVahp1ABMTMuIyh88NCpQCLcBGAs/s1600/cute.gif"
+            ]
+        });
+  
+}
 
 });
 
