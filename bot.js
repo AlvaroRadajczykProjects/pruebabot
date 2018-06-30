@@ -8,6 +8,12 @@ client.on("ready", () => {
 });
 
 client.on("message", message => {
+  
+  if(message.content == "!help"){
+ 
+      message.channel.send('Esto es lo que se hacer:\n* !polla\n* !cookie\n* !cruelsun\n* !pollo\n* !puterfull\n* !tocar\n* !hack\n* !tonto\n* !regalo\n* !buenosdias\n* !perfecto\n* !cute\n* !miseñora\n* !violasion );
+  
+  }
 
   if(message.content == "!polla"){
  
@@ -18,11 +24,7 @@ client.on("message", message => {
         });
   
   }
-
-});
-
-client.on("message", message => {
-
+  
   if(message.content == "!cookie"){
  
       message.channel.send('Dámelo papi!!', {
