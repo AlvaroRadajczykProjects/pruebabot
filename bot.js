@@ -132,6 +132,26 @@ client.on("message", message => {
         });
   
 }
+  
+  if(message.content == "!miseñora"){
+ 
+      message.channel.send('Por ti lo que sea, O_O', {
+            files: [
+                "https://cdn.discordapp.com/attachments/458356424964309003/462593938763808788/unknown.png"
+            ]
+        });
+  
+}
+  
+if(message.content == "!violasion"){
+ 
+      message.channel.send('Que te violo niña, :P', {
+            files: [
+                "https://cdn.discordapp.com/attachments/458356424964309003/462594605976780809/unknown.png"
+            ]
+        });
+  
+}
 
 });
 
