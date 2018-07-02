@@ -193,10 +193,6 @@ if(message.content == "!peligrosa"){
                 "https://cdn.discordapp.com/attachments/458356424964309003/463337213716070411/Megumin_2.png"
             ]
         });
-      
-      var button = document.createElement("button");
-      button.innerHTML = "click me!";
-  
 }
     
     
