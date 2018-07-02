@@ -184,9 +184,6 @@ if(message.content == "!peligrosa"){
             ]
         });
   
-      message.channel.send(button);
-      var btn = document.createElement("button"); 
-  
 }
     
     if(message.content == "!kawai"){
