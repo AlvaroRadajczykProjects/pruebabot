@@ -32,7 +32,7 @@ client.on("message", message => {
   
   if(message.content == "!help"){
  
-      message.channel.send('Esto es lo que se hacer:\n* !on: si se activa/estaba activado los comandos funcionarán\n* !off: si se desactiva/estaba desactivado los comandos no funcionarán\n* !polla\n* !cookie\n* !cruelsun\n* !pollo\n* !puterfull\n* !tocar\n* !hack\n* !tonto\n* !regalo\n* !buenosdias\n* !perfecto\n* !cute\n* !miseñora\n* !violasion');
+      message.channel.send('Esto es lo que se hacer:\n\n* !on: si se activa/estaba activado los comandos funcionarán\n\n* !off: si se desactiva/estaba desactivado los comandos no funcionarán\n\n* !polla\n\n* !cookie\n\n* !cruelsun\n\n* !pollo\n\n* !puterfull\n\n* !tocar\n\n* !hack\n\n* !tonto\n\n* !regalo\n\n* !buenosdias\n\n* !perfecto\n\n* !cute\n\n* !miseñora\n\n* !violasion');
   
   }
 
