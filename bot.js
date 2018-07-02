@@ -196,12 +196,6 @@ if(message.content == "!peligrosa"){
       
       var button = document.createElement("button");
       button.innerHTML = "click me!";
-
-      button.addEventListener("click", function() {
-      button.innerHTML = "You did it";
-      });
-
-      document.body.appendChild(button);
   
 }
     
