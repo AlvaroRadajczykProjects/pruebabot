@@ -188,7 +188,7 @@ if(message.content == "!peligrosa"){
     
     if(message.content == "!kawai"){
  
-      message.channel.send('Que te violo niña, :P', {
+      message.channel.send('Mas linda imposible OwO', {
             files: [
                 "https://cdn.discordapp.com/attachments/458356424964309003/463337213716070411/Megumin_2.png"
             ]
