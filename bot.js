@@ -32,7 +32,7 @@ client.on("message", message => {
   
   if(message.content == "!help"){
  
-      message.channel.send('Esto es lo que se hacer:\n\n* !on: si se activa/estaba activado los comandos funcionarán\n\n* !off: si se desactiva/estaba desactivado los comandos no funcionarán\n\n* !polla\n\n* !cookie\n\n* !cruelsun\n\n* !pollo\n\n* !puterfull\n\n* !tocar\n\n* !hack\n\n* !tonto\n\n* !regalo\n\n* !buenosdias\n\n* !perfecto\n\n* !cute\n\n* !miseñora\n\n* !violasion');
+      message.channel.send('Esto es lo que se hacer:\n\n* !on: si se activa/estaba activado los comandos funcionarán\n\n* !off: si se desactiva/estaba desactivado los comandos no funcionarán\n\n* !polla\n\n* !cookie\n\n* !cruelsun\n\n* !pollo\n\n* !puterfull\n\n* !tocar\n\n* !hack\n\n* !tonto\n\n* !regalo\n\n* !buenosdias\n\n* !perfecto\n\n* !cute\n\n* !miseñora\n\n* !violasion\n\n*NUEVO: !peligrosa\n\n*NUEVO: !kawai');
   
   }
 
@@ -175,6 +175,27 @@ if(message.content == "!violasion"){
         });
   
 }
+    
+if(message.content == "!peligrosa"){
+ 
+      message.channel.send('Es peligrosa; bailando requetón es una diosa', {
+            files: [
+                "https://1.bp.blogspot.com/-CHlYLtDbB9g/Wzp3HpNzWsI/AAAAAAAACHw/C9N3y166VqIl4yoi2SC_n6jeCYFFYioEACLcBGAs/s1600/prueba1.gif"
+            ]
+        });
+  
+}
+    
+    if(message.content == "!kawai"){
+ 
+      message.channel.send('Que te violo niña, :P', {
+            files: [
+                "https://cdn.discordapp.com/attachments/458356424964309003/463337213716070411/Megumin_2.png"
+            ]
+        });
+  
+}
+    
     
 }
 
