@@ -1,13 +1,34 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 
+var funcionar = 1;
+
+
 client.on("ready", () => {
 
   console.log("Mandingo viene!!");
 
 });
 
+
 client.on("message", message => {
+  if(message.content == "!off"){
+     message.channel.send('Me voy, ads!!!');
+    funcionar = 0;
+  }
+});
+
+client.on("message", message => {
+  if(message.content == "!on"){
+     message.channel.send('Hola de nuevo!!!');
+    funcionar = 1;
+  }
+});
+
+
+client.on("message", message => {
+  
+  if(funcionar == 1){
   
   if(message.content == "!help"){
  
@@ -154,10 +175,10 @@ if(message.content == "!violasion"){
         });
   
 }
+    
+}
 
 });
-
-
 
 client.login(process.env.BOT_TOKEN);
 
