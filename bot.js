@@ -195,6 +195,15 @@ if(message.content == "!peligrosa"){
         });
 }
     
+if(message.content == "!kiss"){
+ 
+      message.channel.send('Tus labios rojos, sabor fresa', {
+            files: [
+                "https://cdn.discordapp.com/attachments/458356424964309003/463807846644187139/Kiss_Kirito_and_Asuna.png"
+            ]
+        });
+}
+    
     
 }
 
