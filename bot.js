@@ -32,7 +32,7 @@ client.on("message", message => {
   
   if(message.content == "!help"){
  
-      message.channel.send('Esto es lo que se hacer:\n\n* !on: si se activa/estaba activado los comandos funcionarán\n\n* !off: si se desactiva/estaba desactivado los comandos no funcionarán\n\n* !polla\n* !cookie\n* !cruelsun\n* !pollo\n* !puterfull\n* !tocar\n* !hack\n* !tonto\n* !regalo\n* !buenosdias\n* !perfecto\n* !cute\n* !miseñora\n* !violasion\n* !peligrosa\n* !kawai\n\n*NUEVO: !toifumao');
+      message.channel.send('Esto es lo que se hacer:\n\n* !on: si se activa/estaba activado los comandos funcionarán\n\n* !off: si se desactiva/estaba desactivado los comandos no funcionarán\n\n* !polla\n* !cookie\n* !cruelsun\n* !pollo\n* !puterfull\n* !tocar\n* !hack\n* !tonto\n* !regalo\n* !buenosdias\n* !perfecto\n* !cute\n* !miseñora\n* !violasion\n* !peligrosa\n* !kawai\n\n*NUEVO: !toifumao\n*NUEVO: !loko');
   
   }
 
@@ -209,6 +209,15 @@ if(message.content == "!toifumao"){
       message.channel.send('Ola si toi fumao', {
             files: [
                 "https://3.bp.blogspot.com/-98lLIiSgPu8/W0E3gNVnIPI/AAAAAAAACII/QJDAsPFUdY4IVdF5VQ6N_F3nIu7NHDeIQCLcBGAs/s1600/etoyfumao.gif"
+            ]
+        });
+}
+    
+if(message.content == "!loko"){
+ 
+      message.channel.send('Ola y adió loko!', {
+            files: [
+                "https://3.bp.blogspot.com/-MiLK-nu9lOo/W0E7m5P7HcI/AAAAAAAACIU/fnC4K8f0la8CbXUbwNmE0rc4rzDs_CMrgCLcBGAs/s1600/loko.gif"
             ]
         });
 }
