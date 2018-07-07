@@ -32,7 +32,7 @@ client.on("message", message => {
   
   if(message.content == "!help"){
  
-      message.channel.send('Esto es lo que se hacer:\n\n* !on: si se activa/estaba activado los comandos funcionarán\n\n* !off: si se desactiva/estaba desactivado los comandos no funcionarán\n\n* !polla\n* !cookie\n* !cruelsun\n* !pollo\n* !puterfull\n* !tocar\n* !hack\n* !tonto\n* !regalo\n* !buenosdias\n* !perfecto\n* !cute\n* !miseñora\n* !violasion\n\n*NUEVO: !peligrosa\n*NUEVO: !kawai');
+      message.channel.send('Esto es lo que se hacer:\n\n* !on: si se activa/estaba activado los comandos funcionarán\n\n* !off: si se desactiva/estaba desactivado los comandos no funcionarán\n\n* !polla\n* !cookie\n* !cruelsun\n* !pollo\n* !puterfull\n* !tocar\n* !hack\n* !tonto\n* !regalo\n* !buenosdias\n* !perfecto\n* !cute\n* !miseñora\n* !violasion\n* !peligrosa\n* !kawai\n\n*NUEVO: !toifumao');
   
   }
 
@@ -200,6 +200,15 @@ if(message.content == "!kiss"){
       message.channel.send('Tus labios rojos, sabor fresa', {
             files: [
                 "https://cdn.discordapp.com/attachments/458356424964309003/463807846644187139/Kiss_Kirito_and_Asuna.png"
+            ]
+        });
+}
+    
+if(message.content == "!toifumao"){
+ 
+      message.channel.send('Ola si toi fumao', {
+            files: [
+                "https://3.bp.blogspot.com/-98lLIiSgPu8/W0E3gNVnIPI/AAAAAAAACII/QJDAsPFUdY4IVdF5VQ6N_F3nIu7NHDeIQCLcBGAs/s1600/etoyfumao.gif"
             ]
         });
 }
