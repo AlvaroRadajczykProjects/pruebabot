@@ -249,6 +249,15 @@ if(message.content == "!sigue"){
         });
 }
     
+if(message.content == "!horror"){
+ 
+      message.channel.send('Ay, dios mío', {
+            files: [
+                "https://tenor.com/view/kirito-swordartonline-gif-7806486"
+            ]
+        });
+}
+    
     
 }
 
