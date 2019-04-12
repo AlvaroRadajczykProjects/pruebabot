@@ -251,9 +251,9 @@ if(message.content == "!sigue"){
     
 if(message.content == "!horror"){
  
-      message.channel.send('Ay, dios mío', {
+      message.channel.send('Ay, dios mío!!', {
             files: [
-                "https://tenor.com/view/kirito-swordartonline-gif-7806486"
+                "https://3.bp.blogspot.com/-k6Zy3ML2smM/XLDcmFRtisI/AAAAAAAACNo/6UEWO3DXkGwjvifgQA3GAHIAtjFw58h2ACLcBGAs/s320/caca.gif"
             ]
         });
 }
