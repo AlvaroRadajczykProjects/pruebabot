@@ -104,7 +104,7 @@ client.on("message", message => {
         
          message.channel.send(textos[i], {
             files: [
-                enlaces[1]
+                enlaces[i]
             ]
         });
       
