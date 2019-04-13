@@ -73,7 +73,7 @@ client.on("message", message => {
                  "https://78.media.tumblr.com/bf301c060766fb6fb56d55bd8d1d40de/tumblr_o2c603Wrm91v1ncd6o1_500.gif",
                  "https://cdn.discordapp.com/attachments/433718748193488930/488710771040190472/tumblr_nckncbfqVD1r2yf1qo1_500.gif",
                  "https://cdn.discordapp.com/attachments/433718748193488930/463702140922101770/giphy.gif",
-                 "",
+                 "https://i.pinimg.com/originals/37/d7/92/37d792264b17676cf2db280db81cd69d.gif",
                  "https://cdn.discordapp.com/attachments/433718748193488930/462209732799889419/cute.gif",
                  "https://cdn.discordapp.com/attachments/433718748193488930/463702060886523924/unknown.png",
                  "https://cdn.discordapp.com/attachments/433718748193488930/463701815377133568/unknown.png",
