@@ -92,17 +92,22 @@ client.on("message", message => {
   }
     
  //-----------------------------------------
+  var varhelp = 0  
+  var texto = "";
+    
   if(message.content == "!help"){
  
       message.channel.send("Esto es lo que se hacer:\n\n* !on: si se activa/estaba activado los comandos funcionarán\n\n* !off: si se desactiva/estaba desactivado los comandos no funcionarán\n");
     //los que están 
     
-    var texto = "";
+    if(varhelp == 0){
     
     for(var i = 0; i < numero; i++)
       {
          texto += "Número " + (i + 1) + ": " + comandos[i] + "\n";
       }
+      varhelp = 1;
+    }
     
     message.channel.send(texto);
   }
