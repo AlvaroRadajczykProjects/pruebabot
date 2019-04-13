@@ -96,11 +96,15 @@ client.on("message", message => {
  
       message.channel.send("Esto es lo que se hacer:\n\n* !on: si se activa/estaba activado los comandos funcionarán\n\n* !off: si se desactiva/estaba desactivado los comandos no funcionarán\n");
     //los que están 
+    
+    var texto = "";
+    
     for(var i = 0; i < numero; i++)
       {
-         message.channel.send("Numero " + (i + 1) + ": " + comandos[i]);
+         texto += "Número " + (i + 1) + ": " + comandos[i] + "\n";
       }
     
+    message.channel.send(texto);
   }
   //-----------------------------------------
      
