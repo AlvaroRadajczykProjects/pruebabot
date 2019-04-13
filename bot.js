@@ -37,7 +37,7 @@ client.on("message", message => {
   /* ____________________________________________________________________________________________________ */
   /* ____________________________________________________________________________________________________ */
     
-  var numero = 2;
+  var numero = 100;
     
   var comandos = ["!mierdas", "!pruebas", "!polla", "!cookie", "!cruelsun", "!pollo", "!puterfull", "!tocar",
                   "!hack", "!tonto", "!regalo", "!buenosdias", "!perfecto", "!cute", "!miseñora", "!violasion", 
