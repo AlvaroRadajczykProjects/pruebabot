@@ -3,13 +3,11 @@ const client = new Discord.Client();
 
 var funcionar = 1;
 
-
 client.on("ready", () => {
 
   console.log("Mandingo viene!!");
 
 });
-
 
 client.on("message", message => {
   if(message.content == "!off"){
@@ -25,7 +23,6 @@ client.on("message", message => {
   }
 });
 
-
 client.on("message", message => {
   
   if(funcionar == 1){
@@ -35,7 +32,13 @@ client.on("message", message => {
       message.channel.send('Esto es lo que se hacer:\n\n* !on: si se activa/estaba activado los comandos funcionarán\n\n* !off: si se desactiva/estaba desactivado los comandos no funcionarán\n\n* !polla\n* !cookie\n* !cruelsun\n* !pollo\n* !puterfull\n* !tocar\n* !hack\n* !tonto\n* !regalo\n* !buenosdias\n* !perfecto\n* !cute\n* !miseñora\n* !violasion\n* !peligrosa\n* !kawai\n* !toifumao\n* !loko\n\n*NUEVO: blanco\n*NUEVO: wtf\n*NUEVO: sigue');
   
   }
+    
+    
+  /* ____________________________________________________________________________________________________ */
+  /* ____________________________________________________________________________________________________ */
 
+  var comandos = ["!mierdas", "!pruebas"];
+    
   if(message.content == "!polla"){
  
       message.channel.send('Que ricooo!!!', {
