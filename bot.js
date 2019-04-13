@@ -39,8 +39,38 @@ client.on("message", message => {
     
   var numero = 2;
     
-  var comandos = ["!mierdas", "!pruebas"];
-  var textos = ["menudo cacas", "esto es una prueba"];
+  var comandos = ["!mierdas", "!pruebas", "!polla", "!cookie", "!cruelsun", "!pollo", "!puterfull", "!tocar",
+                  "!hack", "!tonto", "!regalo", "!buenosdias", "!perfecto", "!cute", "!miseñora", "!violasion", 
+                  "!peligrosa", "!kawai", "!kiss", "!toifumao", "!loko", "!espacioenblanco", "!WTF", "!sigue", 
+                  "!horror"];
+    
+  var textos = ["menudo cacas", 
+                "esto es una prueba", 
+                "Que ricooo!!!",
+                "Dámelo papi!!",
+                "Te voy a quemar el CULOOOOO!!!!", 
+                "Cómo te gusta la polla, eh!!!!????",
+                "con <3 mister puterfull para tí",
+                "ABRAZO FUERTE!!",
+                "Modo hacks activado :V",
+                "Más tonto y no naces",
+                "Es un regalo de mi pa ti",
+                "Cuanto tiempo, leeeeel!!",
+                "Soy el puto amo!! Ah, has visto el aro, achanta!",
+                "C-U-T-E",
+                "Por ti lo que sea, O_O",
+                "Que te violo niña, :P",
+                "Mira mi flow!!",
+                "Mas linda imposible OwO",
+                "Tus labios rojos, sabor fresa",
+                "Ola si toi fumao",
+                "Ola y adió loko!",
+                "Espacio en blanco nunca pierde, NUUNCAAA",
+                "WTF estas diciendo......",
+                "Me dejo sin la manga del otro brazo por acariciarte jaja",
+                "Ay, dios mío!!"
+               ];
+    
   var enlaces = ["https://cdn.discordapp.com/attachments/458356424964309003/459340650731798548/unknown.png",
                  "https://1.bp.blogspot.com/-vade0uTKy4g/Wyue4q0ZwgI/AAAAAAAACGw/gNcNEriak_UoSomlb_Qp4GlgfmYaJ963wCLcBGAs/s1600/cookie.png"];
     
@@ -48,12 +78,7 @@ client.on("message", message => {
     
       if(message.content == comandos[i]){
         
-         message.channel.send(textos[i], {
-              files: [
-                   enlaces[i]
-              ]
-           
-         });
+         message.channel.send(textos[i]);
       
       }
   }
