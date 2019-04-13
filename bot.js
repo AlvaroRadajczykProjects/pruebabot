@@ -78,7 +78,7 @@ client.on("message", message => {
                  "https://cdn.discordapp.com/attachments/457188879276048402/566726973150199809/caca.gif",
                 ];
     
-  for(var i = 0; i < numero; i++){
+  for(var i = 0; i < comandos[i].length; i++){
     
       if(message.content == comandos[i]){
         
@@ -96,7 +96,7 @@ client.on("message", message => {
  
       message.channel.send("Esto es lo que se hacer:\n\n* !on: si se activa/estaba activado los comandos funcionarán\n\n* !off: si se desactiva/estaba desactivado los comandos no funcionarán");
     //los que están 
-    for(var i = 0; i < numero; i++)
+    for(var i = 0; i < comandos[i].length; i++)
       {
          message.channel.send("Numero " + (i + 1) + ": " + comandos[i]);
       }
