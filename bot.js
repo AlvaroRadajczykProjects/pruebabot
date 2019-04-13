@@ -71,8 +71,32 @@ client.on("message", message => {
                 "Ay, dios mío!!"
                ];
     
-  var enlaces = ["https://cdn.discordapp.com/attachments/458356424964309003/459340650731798548/unknown.png",
-                 "https://1.bp.blogspot.com/-vade0uTKy4g/Wyue4q0ZwgI/AAAAAAAACGw/gNcNEriak_UoSomlb_Qp4GlgfmYaJ963wCLcBGAs/s1600/cookie.png"];
+  var enlaces = ["",
+                 "",
+                 "",
+                 "https://1.bp.blogspot.com/-vade0uTKy4g/Wyue4q0ZwgI/AAAAAAAACGw/gNcNEriak_UoSomlb_Qp4GlgfmYaJ963wCLcBGAs/s1600/cookie.png",
+                 "https://cdn.discordapp.com/attachments/433718748193488930/459342653176152064/unknown.png",
+                 "",
+                 "",
+                 "https://cdn.discordapp.com/attachments/433718748193488930/488710400456523776/unknown.png",
+                 "https://cdn.discordapp.com/attachments/433718748193488930/463701785509494784/unknown.png",
+                 "https://78.media.tumblr.com/bf301c060766fb6fb56d55bd8d1d40de/tumblr_o2c603Wrm91v1ncd6o1_500.gif",
+                 "https://cdn.discordapp.com/attachments/433718748193488930/488710771040190472/tumblr_nckncbfqVD1r2yf1qo1_500.gif",
+                 "https://cdn.discordapp.com/attachments/433718748193488930/463702140922101770/giphy.gif",
+                 "",
+                 "https://cdn.discordapp.com/attachments/433718748193488930/462209732799889419/cute.gif",
+                 "https://cdn.discordapp.com/attachments/433718748193488930/463702060886523924/unknown.png",
+                 "https://cdn.discordapp.com/attachments/433718748193488930/463701815377133568/unknown.png",
+                 "https://cdn.discordapp.com/attachments/433718748193488930/464130567080902667/prueba1.gif",
+                 "https://cdn.discordapp.com/attachments/433718748193488930/463702027470635018/Megumin_2.png",
+                 "https://cdn.discordapp.com/attachments/433718748193488930/464421765968560139/Kiss_Kirito_and_Asuna.png",
+                 "",
+                 "",
+                 "https://cdn.discordapp.com/attachments/433718748193488930/488710598582861824/unknown.png",
+                 "https://cdn.discordapp.com/attachments/433718748193488930/488710701775454233/unknown.png",
+                 "https://cdn.discordapp.com/attachments/433718748193488930/488710201994641409/unknown.png",
+                 "",
+                ];
     
   for(var i = 0; i < numero; i++){
     
