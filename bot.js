@@ -30,7 +30,7 @@ client.on("message", message => {
   /* ____________________________________________________________________________________________________ */
   /* ____________________________________________________________________________________________________ */
     
-  var numero = 22;
+  var numero = 18;
     
   var comandos = ["!cookie", "!cruelsun", "!tocar", "!hack", "!tonto", "!regalo", "!buenosdias", "!perfecto", 
                   "!cute", "!miseñora", "!violasion", "!peligrosa", "!kawai", "!kiss", "!espacioenblanco", "!WTF", 
@@ -78,7 +78,7 @@ client.on("message", message => {
                  "https://cdn.discordapp.com/attachments/457188879276048402/566726973150199809/caca.gif",
                 ];
     
-  for(var i = 0; i < comandos[i].length; i++){
+  for(var i = 0; i < numero; i++){
     
       if(message.content == comandos[i]){
         
@@ -96,7 +96,7 @@ client.on("message", message => {
  
       message.channel.send("Esto es lo que se hacer:\n\n* !on: si se activa/estaba activado los comandos funcionarán\n\n* !off: si se desactiva/estaba desactivado los comandos no funcionarán");
     //los que están 
-    for(var i = 0; i < comandos[i].length; i++)
+    for(var i = 0; i < numero; i++)
       {
          message.channel.send("Numero " + (i + 1) + ": " + comandos[i]);
       }
