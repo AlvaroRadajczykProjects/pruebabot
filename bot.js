@@ -44,7 +44,7 @@ client.on("message", message => {
   var enlaces = ["https://cdn.discordapp.com/attachments/458356424964309003/459340650731798548/unknown.png",
                  "https://1.bp.blogspot.com/-vade0uTKy4g/Wyue4q0ZwgI/AAAAAAAACGw/gNcNEriak_UoSomlb_Qp4GlgfmYaJ963wCLcBGAs/s1600/cookie.png"];
     
-  for(var i; i < numero; i++){
+  for(var i = 0; i < numero; i++){
     
       if(message.content == comandos[i]){
         
