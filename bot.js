@@ -80,7 +80,7 @@ client.on("message", message => {
         
          message.channel.send(textos[i], {
             files: [
-                "https://i.ytimg.com/vi/L0rkCahBG1A/maxresdefault.jpg"
+                enlaces[1]
             ]
         });
       
