@@ -96,10 +96,7 @@ client.on("message", message => {
   var texto = "";
     
   if(message.content == "!help"){
- 
-      message.channel.send("Esto es lo que se hacer:\n\n* !on: si se activa/estaba activado los comandos funcionarán\n\n* !off: si se desactiva/estaba desactivado los comandos no funcionarán\n");
-    //los que están 
-    
+
     if(varhelp == 0){
     
     for(var i = 0; i < numero; i++)
@@ -109,7 +106,7 @@ client.on("message", message => {
       varhelp = 1;
     }
     
-    message.channel.send(texto);
+    message.channel.send("Esto es lo que se hacer:\n\n* !on: si se activa/estaba activado los comandos funcionarán\n\n* !off: si se desactiva/estaba desactivado los comandos no funcionarán\n\n" + texto);
   }
   //-----------------------------------------
      
