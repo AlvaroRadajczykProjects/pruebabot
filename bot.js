@@ -39,10 +39,9 @@ client.on("message", message => {
     
   var numero = 100;
     
-  var comandos = ["!cookie", "!cruelsun", "!tocar",
-                  "!hack", "!tonto", "!regalo", "!buenosdias", "!perfecto", "!cute", "!miseñora", "!violasion", 
-                  "!peligrosa", "!kawai", "!kiss", "!espacioenblanco", "!WTF", "!sigue", 
-                  "!horror"];
+  var comandos = ["!cookie", "!cruelsun", "!tocar", "!hack", "!tonto", "!regalo", "!buenosdias", "!perfecto", 
+                  "!cute", "!miseñora", "!violasion", "!peligrosa", "!kawai", "!kiss", "!espacioenblanco", "!WTF", 
+                  "!sigue", "!horror"];
     
   var textos = [
                 "Dámelo papi!!",
