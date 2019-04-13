@@ -39,18 +39,14 @@ client.on("message", message => {
     
   var numero = 100;
     
-  var comandos = ["!mierdas", "!pruebas", "!polla", "!cookie", "!cruelsun", "!pollo", "!puterfull", "!tocar",
+  var comandos = ["!cookie", "!cruelsun", "!tocar",
                   "!hack", "!tonto", "!regalo", "!buenosdias", "!perfecto", "!cute", "!miseñora", "!violasion", 
-                  "!peligrosa", "!kawai", "!kiss", "!toifumao", "!loko", "!espacioenblanco", "!WTF", "!sigue", 
+                  "!peligrosa", "!kawai", "!kiss", "!espacioenblanco", "!WTF", "!sigue", 
                   "!horror"];
     
-  var textos = ["menudo cacas", 
-                "esto es una prueba", 
-                "Que ricooo!!!",
+  var textos = [
                 "Dámelo papi!!",
                 "Te voy a quemar el CULOOOOO!!!!", 
-                "Cómo te gusta la polla, eh!!!!????",
-                "con <3 mister puterfull para tí",
                 "ABRAZO FUERTE!!",
                 "Modo hacks activado :V",
                 "Más tonto y no naces",
@@ -63,21 +59,15 @@ client.on("message", message => {
                 "Mira mi flow!!",
                 "Mas linda imposible OwO",
                 "Tus labios rojos, sabor fresa",
-                "Ola si toi fumao",
-                "Ola y adió loko!",
                 "Espacio en blanco nunca pierde, NUUNCAAA",
                 "WTF estas diciendo......",
                 "Me dejo sin la manga del otro brazo por acariciarte jaja",
                 "Ay, dios mío!!"
                ];
     
-  var enlaces = ["",
-                 "",
-                 "",
+  var enlaces = [
                  "https://1.bp.blogspot.com/-vade0uTKy4g/Wyue4q0ZwgI/AAAAAAAACGw/gNcNEriak_UoSomlb_Qp4GlgfmYaJ963wCLcBGAs/s1600/cookie.png",
                  "https://cdn.discordapp.com/attachments/433718748193488930/459342653176152064/unknown.png",
-                 "",
-                 "",
                  "https://cdn.discordapp.com/attachments/433718748193488930/488710400456523776/unknown.png",
                  "https://cdn.discordapp.com/attachments/433718748193488930/463701785509494784/unknown.png",
                  "https://78.media.tumblr.com/bf301c060766fb6fb56d55bd8d1d40de/tumblr_o2c603Wrm91v1ncd6o1_500.gif",
@@ -90,12 +80,10 @@ client.on("message", message => {
                  "https://cdn.discordapp.com/attachments/433718748193488930/464130567080902667/prueba1.gif",
                  "https://cdn.discordapp.com/attachments/433718748193488930/463702027470635018/Megumin_2.png",
                  "https://cdn.discordapp.com/attachments/433718748193488930/464421765968560139/Kiss_Kirito_and_Asuna.png",
-                 "",
-                 "",
                  "https://cdn.discordapp.com/attachments/433718748193488930/488710598582861824/unknown.png",
                  "https://cdn.discordapp.com/attachments/433718748193488930/488710701775454233/unknown.png",
                  "https://cdn.discordapp.com/attachments/433718748193488930/488710201994641409/unknown.png",
-                 "",
+                 "https://cdn.discordapp.com/attachments/457188879276048402/566726973150199809/caca.gif",
                 ];
     
   for(var i = 0; i < numero; i++){
