@@ -26,18 +26,11 @@ client.on("message", message => {
 client.on("message", message => {
   
   if(funcionar == 1){
-  
-  if(message.content == "!help"){
- 
-      message.channel.send('Esto es lo que se hacer:\n\n* !on: si se activa/estaba activado los comandos funcionarán\n\n* !off: si se desactiva/estaba desactivado los comandos no funcionarán\n\n* !polla\n* !cookie\n* !cruelsun\n* !pollo\n* !puterfull\n* !tocar\n* !hack\n* !tonto\n* !regalo\n* !buenosdias\n* !perfecto\n* !cute\n* !miseñora\n* !violasion\n* !peligrosa\n* !kawai\n* !toifumao\n* !loko\n\n*NUEVO: blanco\n*NUEVO: wtf\n*NUEVO: sigue');
-  
-  }
-    
     
   /* ____________________________________________________________________________________________________ */
   /* ____________________________________________________________________________________________________ */
     
-  var numero = 100;
+  var numero = 22;
     
   var comandos = ["!cookie", "!cruelsun", "!tocar", "!hack", "!tonto", "!regalo", "!buenosdias", "!perfecto", 
                   "!cute", "!miseñora", "!violasion", "!peligrosa", "!kawai", "!kiss", "!espacioenblanco", "!WTF", 
@@ -97,6 +90,19 @@ client.on("message", message => {
       
       }
   }
+    
+ //-----------------------------------------
+  if(message.content == "!help"){
+ 
+      message.channel.send("Esto es lo que se hacer:\n\n* !on: si se activa/estaba activado los comandos funcionarán\n\n* !off: si se desactiva/estaba desactivado los comandos no funcionarán");
+    //los que están 
+    for(var i = 0; i < numero; i++)
+      {
+         message.channel.send("Numero " + i + ": " + comandos[i]);
+      }
+    
+  }
+  //-----------------------------------------
      
 }
 
