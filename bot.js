@@ -98,7 +98,7 @@ client.on("message", message => {
     //los que están 
     for(var i = 0; i < numero; i++)
       {
-         message.channel.send("Numero " + i + ": " + comandos[i]);
+         message.channel.send("Numero " + (i + 1) + ": " + comandos[i]);
       }
     
   }
