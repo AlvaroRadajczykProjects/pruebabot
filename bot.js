@@ -74,7 +74,7 @@ client.on("message", message => {
                  "https://cdn.discordapp.com/attachments/433718748193488930/464421765968560139/Kiss_Kirito_and_Asuna.png",
                  "https://cdn.discordapp.com/attachments/433718748193488930/488710598582861824/unknown.png",
                  "https://cdn.discordapp.com/attachments/433718748193488930/488710701775454233/unknown.png",
-                 "https://cdn.discordapp.com/attachments/433718748193488930/488710201994641409/unknown.png",
+                 "https://3.bp.blogspot.com/-SAcJlBa0djo/XLRJGZLbpFI/AAAAAAAACN8/4gd9ISUXZ14UIXgFvTy0EDcwSmjFA1omACLcBGAs/s1600/desconocido.gif",
                  "https://cdn.discordapp.com/attachments/457188879276048402/566726973150199809/caca.gif",
                 ];
     
