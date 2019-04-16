@@ -30,11 +30,12 @@ client.on("message", message => {
   /* ____________________________________________________________________________________________________ */
   /* ____________________________________________________________________________________________________ */
     
-  var numero = 18;
+  var numero = 31;
     
   var comandos = ["!cookie", "!cruelsun", "!tocar", "!hack", "!tonto", "!regalo", "!buenosdias", "!perfecto", 
                   "!cute", "!miseñora", "!violasion", "!peligrosa", "!kawai", "!kiss", "!espacioenblanco", "!WTF", 
-                  "!sigue", "!horror"];
+                  "!sigue", "!horror", "!feliz", "!hermanito", "!aburrido", "!culpable", "!suave", "!lucha", 
+                  "!enlamira", "!ok", "!noexisto", "!dejame", "!ven", "!saber", "!putoamo",];
     
   var textos = [
                 "Dámelo papi!!",
@@ -54,7 +55,20 @@ client.on("message", message => {
                 "Espacio en blanco nunca pierde, NUUNCAAA",
                 "WTF estas diciendo......",
                 "Me dejo sin la manga del otro brazo por acariciarte jaja",
-                "Ay, dios mío!!"
+                "Ay, dios mío!!",
+                "Que felíz soy!!",
+                "Hermanito, dónde estás!!??",
+                "Ahhhhhhhhhhhhhh",
+                "El culpable es... YOO!!",
+                "Hay, que suave",
+                "No me quitarás a mi Asuna!!"
+                "Un paso en falso y te meto un balazo"
+                "Ok",
+                "Yo no existo xd",
+                "Déjame, no me secuestres, secuestrador!!",
+                "Ven aquí, tontete",
+                "Quiero saber más!!!!!",
+                "Mira, soy el puto amo",
                ];
     
   var enlaces = [
@@ -76,6 +90,19 @@ client.on("message", message => {
                  "https://cdn.discordapp.com/attachments/433718748193488930/488710701775454233/unknown.png",
                  "https://3.bp.blogspot.com/-SAcJlBa0djo/XLRJGZLbpFI/AAAAAAAACN8/4gd9ISUXZ14UIXgFvTy0EDcwSmjFA1omACLcBGAs/s1600/desconocido.gif",
                  "https://cdn.discordapp.com/attachments/457188879276048402/566726973150199809/caca.gif",
+                 "https://4.bp.blogspot.com/-oZ8KBbuGDYw/XLWXcJU_JII/AAAAAAAACOg/lh9c-Tw3bZcLD8tRxpchg5iSPhpqLw77wCLcBGAs/s1600/cinco.gif",
+                 "https://4.bp.blogspot.com/-d17NC03g8oo/XLWXcGZ4mwI/AAAAAAAACOc/ai5rr7Gl1CkI9SSHbI_hzBtJ_hoWrjjEACLcBGAs/s1600/cuatro.gif",
+                 "https://2.bp.blogspot.com/-HoEYSDyf3ck/XLWXcJL0GZI/AAAAAAAACOk/2cpvYr9neO4ozAsAKx3n-e7xxNHijsZGgCLcBGAs/s1600/diez.gif",
+                 "https://1.bp.blogspot.com/-50WH97GfXzA/XLWXdLQud9I/AAAAAAAACOo/sL5rHQh73LgTDRDhmTefr-YYFFsLWdSDQCLcBGAs/s1600/doce.gif",
+                 "https://1.bp.blogspot.com/-VxKA7OcGVBk/XLWXdKF0DoI/AAAAAAAACOs/a0Shm44FSv4Lpzb-ehLRwg6k6SUv1S_3gCLcBGAs/s1600/dos.gif",
+                 "https://1.bp.blogspot.com/-eYJVeKp-IYU/XLWXdk0BwBI/AAAAAAAACOw/ExQ6ena38LURAH79-UGWr6I8gqapL_iNwCLcBGAs/s320/nueve.gif",
+                 "https://3.bp.blogspot.com/-8hm2ZQQpyik/XLWXd5jgo_I/AAAAAAAACO0/vYdAvmWwNNEw0HYlRISPqQ6mAgg3_0NFACLcBGAs/s320/ocho.gif",
+                 "https://2.bp.blogspot.com/-GxlfpPAUsJA/XLWXeCUbLtI/AAAAAAAACO4/q_09JOMVGUcaRjA1mMfOR37EWs0n6IU_wCLcBGAs/s1600/ok.gif",
+                 "https://3.bp.blogspot.com/-e2sbaR2v24Q/XLWXemWPlPI/AAAAAAAACO8/JVdCPqBs5AUdDOywlVm9j8JVB0VfL9p7QCLcBGAs/s1600/once.gif",
+                 "https://4.bp.blogspot.com/-vJCdRWPqkmk/XLWXe3nOh9I/AAAAAAAACPA/9fGN5fSKOko5HD3bIggQcRaeeT6AqOrCACLcBGAs/s1600/seis.gif",
+                 "https://4.bp.blogspot.com/-hykpQbfX8M4/XLWXfRn9hTI/AAAAAAAACPE/dyCkkKRKjAMqX4Hd0i0E3HqXKVrgosWmQCLcBGAs/s320/siete.gif",
+                 "https://3.bp.blogspot.com/-mdKUzg20LFM/XLWXfvHPliI/AAAAAAAACPI/M6QKXqLdb4Ay1HMlH6llVCMPC1Up-_brgCLcBGAs/s1600/tres.gif",
+                 "https://2.bp.blogspot.com/-1rLXv1gL-ZQ/XLWXfxtqjgI/AAAAAAAACPM/ls6Eah5Sy8QH6MWuGAlsg523iwFFrA0BACLcBGAs/s1600/uno.gif",               
                 ];
     
   for(var i = 0; i < numero; i++){
