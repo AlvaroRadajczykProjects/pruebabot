@@ -35,7 +35,7 @@ client.on("message", message => {
   var comandos = ["!cookie", "!cruelsun", "!tocar", "!hack", "!tonto", "!regalo", "!buenosdias", "!perfecto", 
                   "!cute", "!miseñora", "!violasion", "!peligrosa", "!kawai", "!kiss", "!espacioenblanco", "!WTF", 
                   "!sigue", "!horror", "!feliz", "!hermanito", "!aburrido", "!culpable", "!suave", "!lucha", 
-                  "!enlamira", "!ok", "!noexisto", "!dejame", "!ven", "!saber", "!putoamo"];
+                  "!enlamira", "!ok", "!noexisto", "!dejame", "!ven", "!saber", "!putoamo", ];
     
   var textos = [
                 "Dámelo papi!!",
@@ -68,7 +68,7 @@ client.on("message", message => {
                 "Déjame, no me secuestres, secuestrador!!",
                 "Ven aquí, tontete",
                 "Quiero saber más!!!!!",
-                "Mira, soy el puto amo"
+                "Mira, soy el puto amo",
                ];
     
   var enlaces = [
@@ -102,7 +102,7 @@ client.on("message", message => {
                  "https://4.bp.blogspot.com/-vJCdRWPqkmk/XLWXe3nOh9I/AAAAAAAACPA/9fGN5fSKOko5HD3bIggQcRaeeT6AqOrCACLcBGAs/s1600/seis.gif",
                  "https://4.bp.blogspot.com/-hykpQbfX8M4/XLWXfRn9hTI/AAAAAAAACPE/dyCkkKRKjAMqX4Hd0i0E3HqXKVrgosWmQCLcBGAs/s320/siete.gif",
                  "https://3.bp.blogspot.com/-mdKUzg20LFM/XLWXfvHPliI/AAAAAAAACPI/M6QKXqLdb4Ay1HMlH6llVCMPC1Up-_brgCLcBGAs/s1600/tres.gif",
-                 "https://2.bp.blogspot.com/-1rLXv1gL-ZQ/XLWXfxtqjgI/AAAAAAAACPM/ls6Eah5Sy8QH6MWuGAlsg523iwFFrA0BACLcBGAs/s1600/uno.gif"          
+                 "https://2.bp.blogspot.com/-1rLXv1gL-ZQ/XLWXfxtqjgI/AAAAAAAACPM/ls6Eah5Sy8QH6MWuGAlsg523iwFFrA0BACLcBGAs/s1600/uno.gif",          
                 ];
     
   for(var i = 0; i < numero; i++){
