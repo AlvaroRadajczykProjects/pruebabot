@@ -4,8 +4,9 @@ orbs:
 steps:
   - restore_cache:
     keys:
-      - v1-npm-deps-{{ checksum "package-lock.json" }}
-      - v1-npm-deps-
+       - node-v1-{{ .Branch }}-{{ checksum "package-lock.json" }}
+       - node-v1-{{ .Branch }}-
+       - node-v1-
 workflows:
   node-tests:
     jobs:
