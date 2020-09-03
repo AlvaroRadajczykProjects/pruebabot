@@ -1,6 +1,11 @@
 version: 2.1
 orbs:
   node: circleci/node@3.0.0
+steps:
+  - restore_cache:
+    keys:
+      - v1-npm-deps-{{ checksum "package-lock.json" }}
+      - v1-npm-deps-
 workflows:
   node-tests:
     jobs:
